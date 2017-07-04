@@ -37,6 +37,10 @@ of those sections to manage the look and feel of the site. */
     background-color: #e3dfe8
 }
 
+.navigation {
+    background-color: #ff732e
+}
+
 .intro-section {
     height: 100%;
     padding-top: 150px;
