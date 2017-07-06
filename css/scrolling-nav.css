@@ -34,11 +34,11 @@ The padding is very important to make sure the scrollspy picks up the right area
 of those sections to manage the look and feel of the site. */
 
 .button {
-    background-color: #e3dfe8
+    background-color: #e3dfe8;
 }
 
 .navigation {
-    background-color: #ff732e
+    background-color: #dd8247;
 }
 
 .intro-section {
