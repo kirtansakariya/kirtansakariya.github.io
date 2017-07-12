@@ -82,3 +82,8 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
     background: #76e7cd;
 }
+
+.bottom-section {
+    text-align: center;
+    background-color: #dd8247;
+}
