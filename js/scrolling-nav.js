@@ -17,3 +17,13 @@ $(function() {
         event.preventDefault();
     });
 });
+
+//JavaScript to help with theme change
+var color = 1;
+var intro = document.getElementById("intro");
+var about = document.getElementById("about");
+var certificates = document.getElementById("certificates");
+var hobbies = document.getelementyById("hobbies");
+var goals = document.getElementById("goals");
+var contact = document.getElementById("contact");
+var bottom = document.getElementById("bottom");
