@@ -29,3 +29,8 @@ var contact = document.getElementById("contact");
 var bottom = document.getElementById("bottom");
 var button1 = document.getElementById("button1");
 var button2 = document.getElementById("button2");
+button1.addEventListener;
+button2.addEventListener;
+button1.onclick = function(){
+    intro.style.backgroundColor = "black";
+}
