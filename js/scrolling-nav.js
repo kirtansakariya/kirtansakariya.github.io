@@ -19,7 +19,6 @@ $(function() {
 });
 
 //JavaScript to help with theme change
-var color = 1;
 var intro = document.getElementById("intro");
 var about = document.getElementById("about");
 var certificates = document.getElementById("certificates");
@@ -32,5 +31,5 @@ var button2 = document.getElementById("button2");
 button1.addEventListener;
 button2.addEventListener;
 button1.onclick = function(){
-    intro.style.backgroundColor = "black";
+    window.alert("hello");
 }
