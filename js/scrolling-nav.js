@@ -31,5 +31,5 @@ var button2 = document.getElementById("button2");
 button1.addEventListener;
 button2.addEventListener;
 button1.onclick = function(){
-    window.alert("hello");
-}
+    alert("hello");
+};
