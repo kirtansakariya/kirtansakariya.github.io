@@ -11,5 +11,5 @@ window.onload = function () {
     var button2 = document.getElementById("button2");
 };
 button1.addEventListener("click", function(){
-    alert("hello");
+    intro.style.backgroundColor = "black";
 });
