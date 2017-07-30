@@ -7,9 +7,9 @@ window.onload = function () {
     var goals = document.getElementById("goals");
     var contact = document.getElementById("contact");
     var bottom = document.getElementById("bottom");
-    var button1 = document.getElementById("button1");
-    var button2 = document.getElementById("button2");
+    var dark = document.getElementById("dark");
+    var light = document.getElementById("light");
 };
-button1.addEventListener("click", function(){
+dark.addEventListener("click", function(){
     intro.style.backgroundColor = "black";
 });
