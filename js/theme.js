@@ -12,7 +12,6 @@ window.onload = function () {
 };
 dark.addEventListener("click", function(){
     alert("Theme changed to the Dark Theme");
-    intro.style.backgroundColor = "black";
 });
 light.addEventListener("click", function(){
     alert("Theme changed to the Light Theme");
