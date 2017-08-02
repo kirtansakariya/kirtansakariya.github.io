@@ -10,9 +10,6 @@ window.onload = function () {
     var dark = document.getElementById("dark");
     var light = document.getElementById("light");
 };
-dark.addEventListener("click", function(){
-    alert("Theme changed to the Dark Theme");
+dark.addEventListener("click", function () {
+    window.alert("hello");
 });
-light.addEventListener("click", function(){
-    alert("Theme changed to the Light Theme");
-})
