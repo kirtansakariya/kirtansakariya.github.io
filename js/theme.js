@@ -11,5 +11,8 @@ window.onload = function () {
     var light = document.getElementById("light");
 };
 dark.addEventListener("click", function () {
-    window.alert("hello");
+    window.alert("dark");
+});
+light.addEventListener("click", function () {
+    window.alert("light");
 });
