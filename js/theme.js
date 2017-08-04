@@ -12,7 +12,9 @@ window.onload = function () {
 };
 dark.addEventListener("click", function () {
     window.alert("dark");
+    intro.style.background = "black";
 });
 light.addEventListener("click", function () {
     window.alert("light");
+    intro.style.background = "#7cc6ff";
 });
