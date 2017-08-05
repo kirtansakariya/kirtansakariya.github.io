@@ -17,4 +17,6 @@ dark.addEventListener("click", function () {
 light.addEventListener("click", function () {
     window.alert("light");
     intro.style.background = "#7cc6ff";
+    certificates.style.background = "#7cc6ff";
+    goals.style.background = "#7cc6ff";
 });
