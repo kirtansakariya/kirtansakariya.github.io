@@ -19,4 +19,7 @@ light.addEventListener("click", function () {
     intro.style.background = "#7cc6ff";
     certificates.style.background = "#7cc6ff";
     goals.style.background = "#7cc6ff";
+    about.style.background = "#76e7cd";
+    hobbies.style.background = "#76e7cd";
+    contact.style.background = "#76e7cd";
 });
