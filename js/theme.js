@@ -17,9 +17,10 @@ dark.addEventListener("click", function () {
 light.addEventListener("click", function () {
     window.alert("light");
     intro.style.background = "#7cc6ff";
-    certificates.style.background = "#7cc6ff";
-    goals.style.background = "#7cc6ff";
     about.style.background = "#76e7cd";
+    certificates.style.background = "#7cc6ff";
     hobbies.style.background = "#76e7cd";
+    goals.style.background = "#7cc6ff";
     contact.style.background = "#76e7cd";
+    bottom.style.background = "#dd8247";
 });
