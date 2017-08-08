@@ -1,5 +1,7 @@
 //JavaScript to help with theme change
 window.onload = function () {
+    var buttons = document.getElementById("button");
+    var navigation = document.getElementyById("navigation");
     var intro = document.getElementById("intro");
     var about = document.getElementById("about");
     var certificates = document.getElementById("certificates");
