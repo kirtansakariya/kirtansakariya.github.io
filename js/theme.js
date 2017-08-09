@@ -15,9 +15,12 @@ window.onload = function () {
 dark.addEventListener("click", function () {
     window.alert("dark");
     intro.style.background = "black";
+    navigation.style.background = "black";
 });
 light.addEventListener("click", function () {
     window.alert("light");
+    buttons.style.background = "#e3dfe8";
+    navigation.style.background = "#dd8247";
     intro.style.background = "#7cc6ff";
     about.style.background = "#76e7cd";
     certificates.style.background = "#7cc6ff";
