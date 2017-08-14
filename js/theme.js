@@ -15,8 +15,8 @@ window.onload = function () {
 dark.addEventListener("click", function () {
     window.alert("dark");
     intro.style.background = "black";
+    buttons.setAttribute("style", "background: blue;");
     navigation.style.backgroundColor = "blue";
-    buttons.style.backgroundColor = "blue";
 });
 light.addEventListener("click", function () {
     window.alert("light");
