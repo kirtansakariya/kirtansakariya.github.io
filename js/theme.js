@@ -1,6 +1,6 @@
 //JavaScript to help with theme change
 window.onload = function () {
-    var buttons = document.getElementsByClassName("button");
+    var buttons = document.getElementById("buttons");
     var navigation = document.getElementsById("navigation");
     var intro = document.getElementById("intro");
     var about = document.getElementById("about");
@@ -15,7 +15,7 @@ window.onload = function () {
 dark.addEventListener("click", function () {
     window.alert("dark");
     intro.style.background = "black";
-    buttons.setAttribute("style", "background: blue;");
+    buttons.style.background = "blue";
     navigation.style.backgroundColor = "blue";
 });
 light.addEventListener("click", function () {
