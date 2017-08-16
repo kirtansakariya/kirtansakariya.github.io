@@ -14,8 +14,8 @@ window.onload = function () {
 };
 dark.addEventListener("click", function () {
     window.alert("dark");
-    intro.style.background = "black";
-    buttons.style.background = "blue";
+    intro.style.background = "#35524a";
+    about.style.background = "#6a5837";
     navigation.style.backgroundColor = "blue";
 });
 light.addEventListener("click", function () {
