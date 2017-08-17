@@ -14,9 +14,14 @@ window.onload = function () {
 };
 dark.addEventListener("click", function () {
     window.alert("dark");
+    navigation.style.backgroundColor = "blue";
     intro.style.background = "#35524a";
     about.style.background = "#6a5837";
-    navigation.style.backgroundColor = "blue";
+    certificates.style.background = "#35524a";
+    hobbies.style.background = "#6a5837";
+    goals.style.background = "#35524a";
+    contact.style.background = "#6a5837";
+    bottom.style.background = "#35524a";
 });
 light.addEventListener("click", function () {
     window.alert("light");
