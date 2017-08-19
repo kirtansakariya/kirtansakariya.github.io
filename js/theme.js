@@ -13,7 +13,6 @@ window.onload = function () {
     var light = document.getElementById("light");
 };
 dark.addEventListener("click", function () {
-    window.alert("dark");
     navigation.style.backgroundColor = "blue";
     intro.style.background = "#35524a";
     about.style.background = "#6a5837";
@@ -24,7 +23,6 @@ dark.addEventListener("click", function () {
     bottom.style.background = "#35524a";
 });
 light.addEventListener("click", function () {
-    window.alert("light");
     navigation.style.backgroundColor = "#dd8247";
     intro.style.background = "#7cc6ff";
     about.style.background = "#76e7cd";
