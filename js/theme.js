@@ -13,7 +13,7 @@ window.onload = function () {
     var light = document.getElementById("light");
 };
 dark.addEventListener("click", function () {
-    navigation.style.backgroundColor = "blue";
+    navigation.style.backgroundColor = "#8c344e";
     intro.style.background = "#35524a";
     about.style.background = "#6a5837";
     certificates.style.background = "#35524a";
