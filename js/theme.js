@@ -11,9 +11,11 @@ window.onload = function () {
     var bottom = document.getElementById("bottom");
     var dark = document.getElementById("dark");
     var light = document.getElementById("light");
+    var button = document.getElementsByClassName("button");
 };
 dark.addEventListener("click", function () {
     window.alert("The theme has been changed to Dark");
+    button.backgroundColor = "#dd8247"; 
     navigation.style.backgroundColor = "#8c344e";
     intro.style.background = "#35524a";
     about.style.background = "#6a5837";
