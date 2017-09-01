@@ -15,7 +15,7 @@ window.onload = function () {
 };
 dark.addEventListener("click", function () {
     window.alert("The theme has been changed to Dark");
-    button.backgroundColor = "#dd8247"; 
+    $(".button") 
     navigation.style.backgroundColor = "#8c344e";
     intro.style.background = "#35524a";
     about.style.background = "#6a5837";
