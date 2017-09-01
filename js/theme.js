@@ -1,6 +1,5 @@
 //JavaScript to help with theme change
 window.onload = function () {
-    var buttons = document.getElementById("buttons");
     var navigation = document.getElementsById("navigation");
     var intro = document.getElementById("intro");
     var about = document.getElementById("about");
@@ -11,11 +10,10 @@ window.onload = function () {
     var bottom = document.getElementById("bottom");
     var dark = document.getElementById("dark");
     var light = document.getElementById("light");
-    var button = document.getElementsByClassName("button");
 };
 dark.addEventListener("click", function () {
     window.alert("The theme has been changed to Dark");
-    $(".button") 
+    $(".button").css("background-color", "#cfb540");
     navigation.style.backgroundColor = "#8c344e";
     intro.style.background = "#35524a";
     about.style.background = "#6a5837";
@@ -27,6 +25,7 @@ dark.addEventListener("click", function () {
 });
 light.addEventListener("click", function () {
     window.alert("The theme has been changed to Light");
+    $(".button").css("background-color", "#e3dfe8");
     navigation.style.backgroundColor = "#dd8247";
     intro.style.background = "#7cc6ff";
     about.style.background = "#76e7cd";
@@ -34,6 +33,5 @@ light.addEventListener("click", function () {
     hobbies.style.background = "#76e7cd";
     goals.style.background = "#7cc6ff";
     contact.style.background = "#76e7cd";
-    buttons.style.backgroundColor = "#e3dfe8";
     bottom.style.background = "#dd8247";
 });
